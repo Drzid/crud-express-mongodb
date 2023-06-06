@@ -2,21 +2,20 @@ GET http://localhost:3000/api/product
 
 ####
 
-GET http://localhost:3000/api/product/647e7de36bc0fffa40583304
-
+GET http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
 ####
 
 POST http://localhost:3000/api/product
 Content-Type: application/json
 
 {
-    "title": "Javascript Lanjut",
+    "title": "Javascript Lanjut 3",
     "price": 450000,
     "stock": true
 }
 
 ####
-PUT http://localhost:3000/api/product/647e7de36bc0fffa40583304
+PUT http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
 Content-Type: application/json
 
 {
@@ -27,4 +26,4 @@ Content-Type: application/json
 
 ####
 
-DELETE http://localhost:3000/api/product/647eb715748682cfa565203c
+DELETE http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
