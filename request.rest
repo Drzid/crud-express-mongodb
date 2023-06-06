@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/product
+
+####
+
+POST http://localhost:3000/api/product
+Content-Type: application/json
+
+{
+    "title": "Javascript Basic",
+    "price": 450000,
+    "stock": true
+}

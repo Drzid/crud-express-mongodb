@@ -19,6 +19,7 @@ const db = mongoose.connection;
 db.on('error', (error)=>console.error(error));
 db.once('open', () => console.log('Database Connected'));
 
+app.use(express.json());
 app.use ('/api/product', route);
 
     app.listen(PORT, () =>{
