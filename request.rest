@@ -10,7 +10,7 @@ POST http://localhost:3000/api/product
 Content-Type: application/json
 
 {
-    "title": "Javascript Basic",
+    "title": "Javascript Lanjut",
     "price": 450000,
     "stock": true
 }
@@ -24,3 +24,7 @@ Content-Type: application/json
     "price": 300000,
     "stock": true
 }
+
+####
+
+DELETE http://localhost:3000/api/product/647eb715748682cfa565203c

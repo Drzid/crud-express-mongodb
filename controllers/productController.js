@@ -36,3 +36,12 @@ export const updateProduct = async (req,res) => {
         res.status(400).json({message: error.message});
     }
 }
+
+export const deleteProduct = async (req,res) => {
+    try {
+        const deletedProduct = await Product.deleteOne({_id:req.params.id}, {$set:req.body});
+        res.status(200).json(deleteProduct);
+    } catch (error) {
+        res.status(400).json({message: error.message});
+    }
+}
