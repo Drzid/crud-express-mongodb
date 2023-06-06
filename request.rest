@@ -10,3 +10,13 @@ Content-Type: application/json
     "price": 450000,
     "stock": true
 }
+
+####
+PUT http://localhost:3000/api/product/647e7de36bc0fffa40583304
+Content-Type: application/json
+
+{
+    "title": "Golang Lanjut",
+    "price": 300000,
+    "stock": true
+}
